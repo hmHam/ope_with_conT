@@ -18,3 +18,4 @@ dependencies:
 # ↓ for tqdm etc in jupyter lab
 - ipywidgets
 - jupyterlab-git
+- scikit-learn
