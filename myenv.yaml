@@ -1,12 +1,14 @@
 name: ope_with_conT
 channels:
 - conda-forge
-- anaconda
 - pytorch
 dependencies:
 - python=3.9
-- pytorch=1.10.0
-- torchvision=0.11.0
+# - pytorch::cudatoolkit=11.5.0
+# この環境を構築したホスト上のドライバ, CUDAのバージョン
+# Driver Version: 465.19.01    CUDA Version: 11.3 
+- pytorch::pytorch=1.10.0
+- pytorch::torchvision=0.11.0
 - tensorboard=2.7.0
 - tqdm
 - numpy
