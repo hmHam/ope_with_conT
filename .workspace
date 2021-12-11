@@ -1,0 +1,2 @@
+conda activate ope_with_conT
+export PYTHONPATH="/home/kato/workspace/ope_with_conT"
